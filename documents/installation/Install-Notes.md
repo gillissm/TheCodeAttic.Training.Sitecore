@@ -32,7 +32,7 @@ Install-Module SitecoreInstallFramework
 
 Perform the following if Solr version 7.2.1.
 
-1. Download/Copy [**Install-Solr2.ps1**](https://github.com/gillissm/TheCodeAttic.Training.Sitecore/blob/1c38b204ab98e0369256ef7ec237c16cdccaf6f5/documents/installation/Install-Solr2.ps1) to ```C:\Sitecore\9_1_1\install``
+1. Download/Copy [**Install-Solr2.ps1**](documents/installation/Install-Solr2.ps1) to ```C:\Sitecore\9_1_1\install``
 2. **OPTIONAL**: If you desire a custom install location, port, or service name update the following values:
    - $solrVersion = "7.2.1",
    - $solrServiceName = "solr-7.2.1",
@@ -54,7 +54,7 @@ Perform the following if Solr version 7.2.1.
 
 If this is the first Sitecore 9.1.X or above installation performed, the following steps should be taken to retrieve the prerequisites for the installation. Note, that some of the prerequisites may fail due to bad/old links to old Microsoft items.
 
-You can download an updated **Prerequisites.json** that has the bad references removed [from the training repository](https://github.com/gillissm/TheCodeAttic.Training.Sitecore/blob/1c38b204ab98e0369256ef7ec237c16cdccaf6f5/documents/installation/Prerequisites.json)
+You can download an updated [**Prerequisites.json**](documents/installation/Prerequisites.json) that has the bad references removed [from the training repository](documents/installation/Prerequisites.json)
 
 1. Open a PowerShell prompt as Admin (or use an already open prompt)
 2. Change directory to ```C:\Sitecore\9_1_1\install```
@@ -73,7 +73,7 @@ Items that you may end up needing to manually download and install are:
 ## 5. Install Sitecore
 
 * At this point you are ready to customize the installation. This is done through modifications of the **XM1-SingleDeveloper.ps1** file.
-* The repository contains a partially completed version that leverages the Solr install and a training hostname, [see XM1-SingleDeveloper.ps1](https://github.com/gillissm/TheCodeAttic.Training.Sitecore/blob/1c38b204ab98e0369256ef7ec237c16cdccaf6f5/documents/installation/XM1-SingleDeveloper.ps1).
+* The repository contains a partially completed version that leverages the Solr install and a training hostname, [see XM1-SingleDeveloper.ps1](documents/installation/XM1-SingleDeveloper.ps1).
 
 Key parameters that will need to be reviewed and possibly updated are:
 
