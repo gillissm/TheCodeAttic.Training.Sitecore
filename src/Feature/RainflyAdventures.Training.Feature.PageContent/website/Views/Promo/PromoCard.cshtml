@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using RainflyAdventures.Training.Feature.PageContent
+@using CoreModels = RainflyAdventures.Training.Foundation.Core.ModelConstants
+
+@model RenderingModel
+@{ 
+    // Get via Rendering Parameter, always uses field name
+    // var background = Model.Item.Database.GetItem(RenderingContext.Current.Rendering.Parameters[CoreModels.StyleableConstants.BackgroundPlusTextFieldName]).Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+
+
+    // Get via droplink on datasrouce
+    var backgroundClass = ((Sitecore.Data.Fields.ReferenceField)Model.Item.Fields[CoreModels.StyleableConstants.BackgroundPlusTextFieldIdString]).TargetItem?.Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+}
+<div class='centerContainerItem'>
+    <div class=floatText>
+        <p class="description @backgroundClass">
+            @Html.Sitecore().Field(ModelConstants.PromoConstants.TitleFieldIdString)
+        </p>
+        @Html.Sitecore().Field(ModelConstants.PromoConstants.ImageFieldIdString)
+    </div>
+</div>

@@ -1,0 +1,18 @@
+﻿---
+ID: "79722429-27c5-44da-b100-179b16552bb0"
+Parent: "3b0d8a32-ecfc-49fd-8e4d-12c7d6d19958"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Base/_TagSelector/Related
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T115904Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

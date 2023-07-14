@@ -1,0 +1,17 @@
+﻿---
+ID: "302c4904-a433-4a73-bfb1-5cfe336043a5"
+Parent: "14582367-e0aa-4c1f-9273-8a8a9ef0d96b"
+Template: "2bb5a4b6-4547-4a73-9528-41c5c26dfd24"
+Path: /sitecore/content/RainflyTraining/Data/Styles/TextColors/textMuted
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T160759Z
+    - ID: "260cfb47-f7ee-4f9c-a8db-ff98523cae49"
+      Hint: Classname
+      Value: textMuted

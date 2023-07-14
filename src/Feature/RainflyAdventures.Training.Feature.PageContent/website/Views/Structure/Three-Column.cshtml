@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+
+<!-- Start Structures-ThreeColumn -->
+<div class="Structures-ThreeColumn container">
+    <div class="containerRow">
+        <div class="containerColumn" style="min-width:100px;">
+            @Html.Sitecore().DynamicPlaceholder("leftcolumncontent")
+        </div>
+        <div class="containerColumn" style="min-width:100px;">
+            @Html.Sitecore().DynamicPlaceholder("middlecolumncontent")
+        </div>
+        <div class="containerColumn" style="min-width:100px;">
+            @Html.Sitecore().DynamicPlaceholder("rightcolumncontent")
+        </div>
+    </div>
+</div>
+<!-- End Structures-ThreeColumn -->

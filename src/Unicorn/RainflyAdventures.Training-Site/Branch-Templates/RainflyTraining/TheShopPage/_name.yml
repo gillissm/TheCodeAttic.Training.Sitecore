@@ -1,0 +1,19 @@
+﻿---
+ID: "cc883c53-26e5-4031-aad5-ee331975a438"
+Parent: "030efeec-4b5c-4ba3-b97c-ece2397ff8e2"
+Template: "b7a95646-7f7a-46f0-b29a-1a685f248d04"
+Path: /sitecore/templates/Branches/Project/RainflyTraining/TheShopPage/$name
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{431A4468-4049-4D7D-89C3-3B1FA98F00DB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220819T125527Z

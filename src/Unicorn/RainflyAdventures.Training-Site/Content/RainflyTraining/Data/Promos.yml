@@ -1,0 +1,14 @@
+﻿---
+ID: "f6f02df0-ad65-486f-98cc-a4be2dda4236"
+Parent: "9085b335-82c6-4153-8a34-428344c615e9"
+Template: "6a6a321d-ec9b-4636-8002-51709befbc1f"
+Path: /sitecore/content/RainflyTraining/Data/Promos
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T150725Z

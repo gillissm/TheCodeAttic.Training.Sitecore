@@ -1,0 +1,14 @@
+﻿---
+ID: "0ce52833-1456-4e31-9091-1832f4e54894"
+Parent: "79884278-a8a9-4f94-a74f-ae2a58c5670c"
+Template: "79884278-a8a9-4f94-a74f-ae2a58c5670c"
+Path: /sitecore/templates/Feature/PageContent/PromoRenderingParameter/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T162321Z

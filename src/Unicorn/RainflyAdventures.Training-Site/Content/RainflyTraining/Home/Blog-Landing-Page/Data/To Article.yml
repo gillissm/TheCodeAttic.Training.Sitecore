@@ -1,0 +1,21 @@
+﻿---
+ID: "73782d3a-d398-4b1b-9406-6fab1d4a6bfa"
+Parent: "5f41e632-c64f-41fd-b957-5c17c0e53dc9"
+Template: "4851db88-673a-4136-97cc-79b88bf51a84"
+Path: "/sitecore/content/RainflyTraining/Home/Blog-Landing-Page/Data/To Article"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ab993c6-6e09-4367-aaf2-9372b017910b"
+      Hint: Title
+      Value: To Article
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230711T114326Z
+    - ID: "7eb0590f-58cd-4b32-ad6d-13d28c2573f7"
+      Hint: PrimaryActionLink
+      Value: |
+        <link linktype="internal" querystring="" target="" id="{85D384F9-C63F-4806-9558-A352F0A9428B}" />

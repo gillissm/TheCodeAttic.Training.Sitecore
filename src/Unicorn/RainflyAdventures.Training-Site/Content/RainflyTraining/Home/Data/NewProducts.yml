@@ -1,0 +1,35 @@
+﻿---
+ID: "b7a9177e-7d8b-43bb-a8ed-de5e29650cd9"
+Parent: "ef3d31a2-24a9-46ab-bf9a-87b360a4fb6d"
+Template: "4851db88-673a-4136-97cc-79b88bf51a84"
+Path: /sitecore/content/RainflyTraining/Home/Data/NewProducts
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "167e607c-3080-450e-85e0-cd60958456a5"
+      Hint: Image
+      Value: |
+        <image mediaid="{37E66EA6-45FB-4B13-BC5A-4E7A76DA9BBC}" alt="" height="374" width="250" hspace="" vspace="" />
+    - ID: "1ab993c6-6e09-4367-aaf2-9372b017910b"
+      Hint: Title
+      Value: See the latest in gear
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220819T124758Z
+    - ID: "7152697d-e946-4ec4-aad5-223fcc204ce7"
+      Hint: Copy
+      Value: <p>We have all the gear you need for you next adventure.</p>
+    - ID: "7eb0590f-58cd-4b32-ad6d-13d28c2573f7"
+      Hint: PrimaryActionLink
+      Value: |
+        <link id="{903A9EEF-C054-43BF-B67A-175D88477455}" querystring="" target="" url="/RainflyTraining/Home/TheShop" linktype="internal" />
+    - ID: "a246b760-9f0f-4cbb-b43b-1d6f976be47b"
+      Hint: BackgroundPlusText
+      Value: "{AC70843A-8591-4236-B27B-EE81AFFAD828}"

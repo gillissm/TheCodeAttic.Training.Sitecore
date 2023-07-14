@@ -14,9 +14,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="App_Config\Include\Foundation\Foundation.Core.RegisterContainer.config" />
+    <None Remove="App_Config\Include\Foundation\Foundation.Core.Search.config" />
+    <None Remove="App_Config\Include\Foundation\Foundation.Core.ser.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Foundation\Foundation.Core.RegisterContainer.config" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Core.Search.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Foundation.Core.RegisterContainer.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Config\Include\Foundation\Foundation.Core.ser.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.config" />
@@ -30,11 +42,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="2.0.1" />
     <PackageReference Include="Sitecore.Kernel" Version="9.1.1" />
+    <PackageReference Include="Sitecore.Mvc" Version="9.1.1" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Exceptions\" />
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\..\Search\website\RainflyAdventures.Training.Foundation.Search.csproj" />
   </ItemGroup>
 </Project>

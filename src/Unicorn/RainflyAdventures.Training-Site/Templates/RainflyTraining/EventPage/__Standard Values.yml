@@ -1,0 +1,17 @@
+﻿---
+ID: "d9082c40-ea8e-458b-95de-c4e86092f519"
+Parent: "583d498c-b413-48f3-8186-ff2e4a74d7b6"
+Template: "583d498c-b413-48f3-8186-ff2e4a74d7b6"
+Path: /sitecore/templates/Project/RainflyTraining/EventPage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a209e70-fbb1-4a7a-b468-56f47e2176dc"
+      Hint: BrowserTitle
+      Value: You should come to $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T124659Z

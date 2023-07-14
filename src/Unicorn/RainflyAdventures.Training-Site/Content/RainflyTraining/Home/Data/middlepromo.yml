@@ -1,0 +1,27 @@
+﻿---
+ID: "c54e61ac-f65f-4ab5-82ea-512339f4c3c6"
+Parent: "ef3d31a2-24a9-46ab-bf9a-87b360a4fb6d"
+Template: "4851db88-673a-4136-97cc-79b88bf51a84"
+Path: /sitecore/content/RainflyTraining/Home/Data/middlepromo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "167e607c-3080-450e-85e0-cd60958456a5"
+      Hint: Image
+      Value: |
+        <image mediaid="{87A72E49-1D1B-4AEA-B5F7-7E1B1BE88EA5}" alt="Rocky Mtn" height="" width="" hspace="" vspace="" />
+    - ID: "1ab993c6-6e09-4367-aaf2-9372b017910b"
+      Hint: Title
+      Value: Take a Trip
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T204814Z
+    - ID: "939239a5-361f-4e10-bb2c-4ab68e3c6800"
+      Hint: TextColors
+      Value: "{5FB2030F-50F1-4F10-9127-283ECFFCA79B}"
+    - ID: "a246b760-9f0f-4cbb-b43b-1d6f976be47b"
+      Hint: BackgroundPlusText
+      Value: "{AC70843A-8591-4236-B27B-EE81AFFAD828}"

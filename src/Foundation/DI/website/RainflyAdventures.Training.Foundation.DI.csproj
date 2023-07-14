@@ -16,7 +16,9 @@
     <None Remove="App_Config\Include\Foundation\Foundation.DI.RegisterControllers.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Foundation\Foundation.DI.RegisterControllers.config" />
+    <Content Include="App_Config\Include\Foundation\Foundation.DI.RegisterControllers.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.config" />

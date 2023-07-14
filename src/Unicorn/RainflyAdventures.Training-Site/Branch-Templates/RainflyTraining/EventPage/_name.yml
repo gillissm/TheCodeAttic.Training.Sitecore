@@ -1,0 +1,14 @@
+﻿---
+ID: "2c0b8f71-3b53-46d2-88c5-8ac021be7561"
+Parent: "c6688203-1bcb-4019-bad6-3e37871588c0"
+Template: "583d498c-b413-48f3-8186-ff2e4a74d7b6"
+Path: /sitecore/templates/Branches/Project/RainflyTraining/EventPage/$name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T132547Z

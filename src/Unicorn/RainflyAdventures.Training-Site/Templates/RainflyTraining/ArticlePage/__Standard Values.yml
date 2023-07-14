@@ -1,0 +1,17 @@
+﻿---
+ID: "2580aa00-af91-4cf8-83c9-efd7723af1ed"
+Parent: "3a4580b7-3a98-4057-9ab5-c743393e0cad"
+Template: "3a4580b7-3a98-4057-9ab5-c743393e0cad"
+Path: /sitecore/templates/Project/RainflyTraining/ArticlePage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a209e70-fbb1-4a7a-b468-56f47e2176dc"
+      Hint: BrowserTitle
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T124552Z

@@ -1,0 +1,40 @@
+﻿---
+ID: "72fed137-5f22-4e4a-bd93-3c80fd200418"
+Parent: "d8f725f7-b8bf-4fad-b3e8-3cf6d19421d1"
+Template: "6cbe2a18-270a-49f8-bc35-4d534fc6c424"
+Path: /sitecore/content/RainflyTraining/Home/UseSampleLayout
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}" />
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5CD2F6D9-0255-4603-9247-2682A93C26B8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a209e70-fbb1-4a7a-b468-56f47e2176dc"
+      Hint: BrowserTitle
+      Value: UseSampleLayout
+    - ID: "1ab993c6-6e09-4367-aaf2-9372b017910b"
+      Hint: Title
+      Value: UseSampleLayout
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T162238Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"

@@ -1,0 +1,17 @@
+﻿---
+ID: "5fb2030f-50f1-4f10-9127-283ecffca79b"
+Parent: "14582367-e0aa-4c1f-9273-8a8a9ef0d96b"
+Template: "2bb5a4b6-4547-4a73-9528-41c5c26dfd24"
+Path: /sitecore/content/RainflyTraining/Data/Styles/TextColors/wheatYellow
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T160807Z
+    - ID: "260cfb47-f7ee-4f9c-a8db-ff98523cae49"
+      Hint: Classname
+      Value: wheatYellow

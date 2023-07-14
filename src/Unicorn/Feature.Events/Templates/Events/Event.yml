@@ -1,0 +1,36 @@
+﻿---
+ID: "d6814043-eeed-4849-9722-befef72b7113"
+Parent: "74c6ec97-6967-4163-ad1d-c4be5efce576"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Events/Event
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/balloons.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {5A864363-5902-4CDB-8421-9B8AE7C1A013}
+    {7879CEA4-44EB-498B-9917-0DA4646E1021}
+    {B333BDE8-7D00-4BDA-858D-DF45EBA98E7A}
+    {DFD71B66-796C-4BDE-A2BB-B60958D7BAF8}
+    {F55A6827-4470-4A2C-9DA4-DBB50F65BEEC}
+    {3B0D8A32-ECFC-49FD-8E4D-12C7D6D19958}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{B9FDEC4A-B61C-46A6-BCB7-C08B634B4661}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T113642Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

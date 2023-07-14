@@ -1,0 +1,17 @@
+﻿---
+ID: "96a9a4e3-68a9-45d7-b830-ee89319da07b"
+Parent: "9ec14a2d-55f8-4540-9137-e66f01b916d1"
+Template: "9ec14a2d-55f8-4540-9137-e66f01b916d1"
+Path: /sitecore/templates/Project/RainflyTraining/ProductPage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a209e70-fbb1-4a7a-b468-56f47e2176dc"
+      Hint: BrowserTitle
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T123838Z

@@ -1,0 +1,61 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using RainflyAdventures.Training.Feature.Product
+@using CoreModels = RainflyAdventures.Training.Foundation.Core.ModelConstants
+
+@model List<RainflyAdventures.Training.Feature.Product.Models.ProductSearchResult>
+
+<div class='productDetail container'>
+    <div class="containerRow">
+        @foreach (var p in Model)
+        {
+            <div class="containerColumn">
+                <div>
+                    <h2><a href="@p.PageUrl">@p.Title</a></h2>
+                    <h3>$@p.Cost</h3>
+                    <p>@p.Copy</p>
+                    <div class="containerRow">
+                        <button class='buttonFeel' onclick="ShowQuickView('@p.ItemId');">Quick View</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class='containerRow' style="padding-top: 10px;padding-bottom:15px;">
+        <div id="quickImage" style="width:50%;height:50%;" onclick="clearImage();">
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function clearImage() {
+        var imgWrapper = document.getElementById('quickImage');
+        imgWrapper.innerHTML = '';
+    }
+    async function ShowQuickView(itemId) {
+        var data = {
+            scController: "QuickView",
+            scAction: "GetQuickView",
+            id: itemId,
+
+        };
+
+        const response = await fetch(window.location.origin + "/api/sitecore/quickview/getquickview?id=" + itemId,
+            {
+                method: "POST",
+                context: this,
+                body: JSON.stringify(data),
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+
+        if (response.ok) {
+            const rData = await response.json();
+            var imgWrapper = document.getElementById('quickImage');
+            imgWrapper.innerHTML = rData.imgHtml;
+        }
+    }
+</script>

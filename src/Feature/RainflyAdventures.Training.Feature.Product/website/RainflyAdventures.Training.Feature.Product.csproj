@@ -5,6 +5,20 @@
         <ApplicationIcon />
         <OutputType>Library</OutputType>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Views\Product\ProductDetail.cshtml" />
+      <None Remove="Views\Product\ProductList.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Views\Product\ProductDetail.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Product\ProductList.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
     <ItemGroup>
         <ProjectCapability Include="SupportsSystemWeb" />
     </ItemGroup>
@@ -22,6 +36,10 @@
     <ItemGroup>
         <PackageReference Include="Sitecore.Kernel" Version="9.1.1" />
         <PackageReference Include="Sitecore.Mvc" Version="9.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Foundation\Core\website\RainflyAdventures.Training.Foundation.Core.csproj" />
     </ItemGroup>
 
 </Project>

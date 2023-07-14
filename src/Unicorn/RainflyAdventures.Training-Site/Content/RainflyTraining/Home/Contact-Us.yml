@@ -1,0 +1,24 @@
+﻿---
+ID: "76cc0d0d-8da6-4058-9891-290e5edb8a6e"
+Parent: "d8f725f7-b8bf-4fad-b3e8-3cf6d19421d1"
+Template: "6cbe2a18-270a-49f8-bc35-4d534fc6c424"
+Path: "/sitecore/content/RainflyTraining/Home/Contact-Us"
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5CD2F6D9-0255-4603-9247-2682A93C26B8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a209e70-fbb1-4a7a-b468-56f47e2176dc"
+      Hint: BrowserTitle
+      Value: "Contact-Us"
+    - ID: "1ab993c6-6e09-4367-aaf2-9372b017910b"
+      Hint: Title
+      Value: "Contact-Us"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T191308Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "217a6ecf-5245-4c0f-a526-9a4fe4efea1a"
+Parent: "6a6a321d-ec9b-4636-8002-51709befbc1f"
+Template: "6a6a321d-ec9b-4636-8002-51709befbc1f"
+Path: /sitecore/templates/Feature/PageContent/Promo Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {4851DB88-673A-4136-97CC-79B88BF51A84}
+    {6A6A321D-EC9B-4636-8002-51709BEFBC1F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T150306Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,17 @@
+﻿---
+ID: "733e6547-0e62-4d38-8134-b8f730e5d2a7"
+Parent: "2c1fa7b8-b56e-46e7-bbaf-35feb68274a0"
+Template: "2bb5a4b6-4547-4a73-9528-41c5c26dfd24"
+Path: /sitecore/content/RainflyTraining/Data/Styles/Background Plus Text/whiteBG
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T160921Z
+    - ID: "260cfb47-f7ee-4f9c-a8db-ff98523cae49"
+      Hint: Classname
+      Value: whiteBG

@@ -1,0 +1,29 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using RainflyAdventures.Training.Feature.PageContent
+@using CoreModels = RainflyAdventures.Training.Foundation.Core.ModelConstants
+
+@model RenderingModel
+@{
+    // Get via Rendering Parameter, always uses field name
+    // var background = Model.Item.Database.GetItem(RenderingContext.Current.Rendering.Parameters[CoreModels.StyleableConstants.BackgroundPlusTextFieldName]).Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+
+
+    // Get via droplink on datasrouce
+    var backgroundClass = ((Sitecore.Data.Fields.ReferenceField)Model.Item.Fields[CoreModels.StyleableConstants.BackgroundPlusTextFieldIdString]).TargetItem?.Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+    var textClass = ((Sitecore.Data.Fields.ReferenceField)Model.Item.Fields[CoreModels.StyleableConstants.TextColorsFieldIdString]).TargetItem?.Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+
+}
+<div class="card">
+    @* <span className="fa-5x">
+        <FontAwesomeIcon icon={faCampground} className={styles.textPrimary} />
+    </span> *@
+
+    @Html.Sitecore().BeginField(ModelConstants.PromoConstants.PrimaryActionLinkFieldIdString, new {@class="serviceHeading", HideDescription=true })
+        <h4>@Html.Sitecore().Field(ModelConstants.PromoConstants.TitleFieldIdString)</h4>
+    @Html.Sitecore().EndField()
+
+    <div class="@textClass">
+        @Html.Sitecore().Field(ModelConstants.PromoConstants.ContentFieldIdString)
+    </div>
+</div>

@@ -20,17 +20,52 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="App_Config\Include\Project\Project.RainflyAdventures.Training.config" />
-    <None Remove="App_Config\Include\Project\Project.RainflyAdventures.Training.Mvc.config" />
-    <None Remove="App_Config\Include\Project\z.Project.RainflyAdventures.Training.DevSettings.config" />
+    <None Remove="App_Config\Include\Project\Project.RainflyAdventures.Training.ser.config" />
     <None Remove="sitecore\login\RainflyAdventures.Training_Wallpaper.jpg" />
-    <None Remove="Views\Layouts\RainflyAdventures.Training\Default.cshtml" />
+    <None Remove="themes\training\adventure-planning.module.css" />
+    <None Remove="themes\training\FallHike.module.css" />
+    <None Remove="themes\training\globals.css" />
+    <None Remove="themes\training\header.module.css" />
+    <None Remove="themes\training\Home.module.css" />
+    <None Remove="themes\training\Orienteering.module.css" />
+    <None Remove="themes\training\singletrip.module.scss" />
+    <None Remove="themes\training\trips.module.css" />
+    <None Remove="Views\Layouts\MainLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Project\Project.RainflyAdventures.Training.config" />
-    <Content Include="App_Config\Include\Project\Project.RainflyAdventures.Training.Mvc.config" />
-    <Content Include="App_Config\Include\Project\z.Project.RainflyAdventures.Training.DevSettings.config" />
+    <Content Include="themes\training\FallHike.module.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Project\Project.RainflyAdventures.Training.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Config\Include\Project\Project.RainflyAdventures.Training.ser.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="sitecore\login\RainflyAdventures.Training_Wallpaper.jpg" />
-    <Content Include="Views\Layouts\RainflyAdventures.Training\Default.cshtml" />
+    <Content Include="themes\training\globals.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="themes\training\header.module.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="themes\training\Home.module.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="themes\training\Orienteering.module.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="themes\training\singletrip.module.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="themes\training\trips.module.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Layouts\MainLayout.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\Web.config" />
@@ -51,5 +86,13 @@
     <PackageReference Include="Sitecore.Kernel" Version="9.1.1" />
     <PackageReference Include="Sitecore.Mvc" Version="9.1.1" />
     <PackageReference Include="Sitecore.Mvc.Analytics" Version="9.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Core\website\RainflyAdventures.Training.Foundation.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="themes\training\adventure-planning.module.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>

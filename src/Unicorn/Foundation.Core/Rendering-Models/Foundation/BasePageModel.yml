@@ -1,0 +1,22 @@
+﻿---
+ID: "794d9989-4457-4124-8a19-0bc914b179fc"
+Parent: "cb5ef5cd-a46d-444f-aa9f-9465766f185d"
+Template: "fed6a14f-0d05-4e18-b160-17c0588a2005"
+Path: /sitecore/layout/Models/Foundation/BasePageModel
+DB: master
+SharedFields:
+- ID: "ee9e23d2-181d-4172-a929-0e0b8d10313c"
+  Hint: Model Type
+  Value: RainflyAdventures.Training.Foundation.Core.Models.BasePageModel, RainflyAdventures.Training.Foundation.Core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T185626Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

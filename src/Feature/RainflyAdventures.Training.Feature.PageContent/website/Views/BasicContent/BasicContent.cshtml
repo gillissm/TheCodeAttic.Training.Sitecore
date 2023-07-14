@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@using RainflyAdventures.Training.Foundation.Core
+@using RainflyAdventures.Training.Foundation.Core.Models
+
+@model BasePageModel
+
+<div class="basiccontent">
+    <h1>@Html.Sitecore().Field(ModelConstants.TitleConstants.TitleFieldIdString)</h1>
+    <div>
+        @Html.Sitecore().Field(ModelConstants.ContentConstants.ContentFieldIdString)
+    </div>
+    @Html.Sitecore().Field(ModelConstants.ImageConstants.ImageFieldIdString)
+</div>

@@ -1,0 +1,17 @@
+﻿---
+ID: "71a7c0b8-b1d7-4b15-a699-52fd04486898"
+Parent: "2c1fa7b8-b56e-46e7-bbaf-35feb68274a0"
+Template: "2bb5a4b6-4547-4a73-9528-41c5c26dfd24"
+Path: /sitecore/content/RainflyTraining/Data/Styles/Background Plus Text/oliveBG
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T160943Z
+    - ID: "260cfb47-f7ee-4f9c-a8db-ff98523cae49"
+      Hint: Classname
+      Value: oliveBG

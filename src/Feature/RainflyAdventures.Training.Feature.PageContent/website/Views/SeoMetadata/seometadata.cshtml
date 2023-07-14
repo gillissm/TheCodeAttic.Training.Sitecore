@@ -1,0 +1,49 @@
+﻿@using Sitecore.Mvc
+@using RainflyAdventures.Training.Foundation.Core
+@using RainflyAdventures.Training.Foundation.Core.Models
+
+@model BasePageModel
+
+
+@if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+{
+    <div class="Admin-EditFrame">
+        <div class="toggle-expand">
+            <span class="fa fa-caret-down"></span> Page Metadata
+        </div>
+
+        <div class="expandable">
+            <p>The following metadata is for the current page only:</p>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Metadata Title</h5>
+                        @Html.Sitecore().Field(ModelConstants.PageMetadataConstants.BrowserTitleFieldIdString)
+
+                        <h5>Metadata Keywords</h5>
+                        @Html.Sitecore().Field(ModelConstants.PageMetadataConstants.MetaKeywordsFieldIdString)
+
+                        <h5>Metadata Description</h5>
+                        @Html.Sitecore().Field(ModelConstants.PageMetadataConstants.MetaDescFieldIdString)
+
+                        <h5>Page Title</h5>
+                        @Html.Sitecore().Field(ModelConstants.TitleConstants.TitleFieldIdString)
+
+                        <h5>Body CSS</h5>
+                        @Html.Sitecore().Field(ModelConstants.StyleableConstants.BodyCSSFieldIdString)
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <title>@(string.IsNullOrWhiteSpace(Model.BrowserTitle)?Model.Title:Model.BrowserTitle)</title>
+
+    <meta name="title" content="@(string.IsNullOrWhiteSpace(Model.BrowserTitle)?Model.Title:Model.BrowserTitle)">
+    <meta name="keywords" content="@Model.MetaKeywords">
+    <meta name="description" content="@Model.MetaDesc">
+}

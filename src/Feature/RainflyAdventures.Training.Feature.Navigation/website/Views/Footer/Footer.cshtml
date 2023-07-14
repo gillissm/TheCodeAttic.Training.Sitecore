@@ -1,0 +1,33 @@
+@using RainflyAdventures.Training.Feature.Navigation
+
+@model RainflyAdventures.Training.Feature.Navigation.Models.FooterViewModel
+
+<footer>
+    @*HTML and Styling for Footer*@
+    <div class="oliveBG">
+        <section class="section">
+            <div class="container">
+                <div class="containerRow">
+                    <div class="containerColumn">
+                        <figure class="image is-128x128">
+                            @Html.Sitecore().Field(ModelConstants.FooterConstants.FooterLogoFieldIdString, Model.SCItem, new { DisableWebEdit = true })
+                        </figure>
+                    </div>
+                    @foreach (var navItem in Model.Links)
+                    {
+                        <div class="containerColumn">
+                            <a href="@navItem.Url">@navItem.Displayname</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+
+
+        @*Basic Footer Copywrite*@
+        <div class="footer footer-extended crimsonBG">
+            <div class="content container">
+                <p> &copy; @DateTime.Now.Year @Html.Sitecore().Field(ModelConstants.FooterConstants.CopyrightMessageFieldIdString, Model.SCItem) </p>
+            </div>
+        </div>
+    </div>

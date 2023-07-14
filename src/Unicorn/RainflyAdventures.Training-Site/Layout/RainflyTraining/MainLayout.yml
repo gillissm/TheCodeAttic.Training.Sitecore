@@ -1,0 +1,25 @@
+﻿---
+ID: "0230d07a-4e4a-4f87-b3ef-568a6ff7fb11"
+Parent: "68397e6f-fd74-429e-8eb8-dd90846933ac"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/RainflyTraining/MainLayout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Layouts/MainLayout.cshtml
+- ID: "e9cc5a73-3c8a-4d7d-92ac-3b88c18a996a"
+  Hint: Model
+  Value: /sitecore/layout/Models/Foundation/BasePageModel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T162608Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

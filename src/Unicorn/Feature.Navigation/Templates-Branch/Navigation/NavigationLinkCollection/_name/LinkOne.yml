@@ -1,0 +1,17 @@
+﻿---
+ID: "33b50145-e0f0-4aaa-9fd2-5d9dd9087de5"
+Parent: "a0a3bc49-8a6e-4d19-b97a-52827a471045"
+Template: "748fdfa5-9024-4269-b12c-de23d114e157"
+Path: /sitecore/templates/Branches/Feature/Navigation/NavigationLinkCollection/$name/LinkOne
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230714T133637Z
+    - ID: "ac55a0d5-d92c-4c44-b918-2373e243e7d8"
+      Hint: DisplayTitle
+      Value: LinkOne

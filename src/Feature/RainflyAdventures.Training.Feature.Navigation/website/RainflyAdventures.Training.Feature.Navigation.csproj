@@ -5,6 +5,28 @@
         <ApplicationIcon />
         <OutputType>Library</OutputType>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="App_Config\Include\Feature\Feature.Navigation.RegisterContainer.config" />
+      <None Remove="App_Config\Include\Feature\Feature.Navigation.ser.config" />
+      <None Remove="Views\Footer\Footer.cshtml" />
+      <None Remove="Views\Header\Header.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="App_Config\Include\Feature\Feature.Navigation.RegisterContainer.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="App_Config\Include\Feature\Feature.Navigation.ser.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Footer\Footer.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Header\Header.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
     <ItemGroup>
         <ProjectCapability Include="SupportsSystemWeb" />
     </ItemGroup>
@@ -22,6 +44,10 @@
     <ItemGroup>
         <PackageReference Include="Sitecore.Kernel" Version="9.1.1" />
         <PackageReference Include="Sitecore.Mvc" Version="9.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ViewModels\" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,14 @@
+﻿---
+ID: "b9fdec4a-b61c-46a6-bcb7-c08b634b4661"
+Parent: "d6814043-eeed-4849-9722-befef72b7113"
+Template: "d6814043-eeed-4849-9722-befef72b7113"
+Path: /sitecore/templates/Feature/Events/Event/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T120043Z

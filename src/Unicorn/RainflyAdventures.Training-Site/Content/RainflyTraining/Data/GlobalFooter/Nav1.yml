@@ -1,0 +1,21 @@
+﻿---
+ID: "e397b062-68c2-43a1-a190-564b6035cb7d"
+Parent: "399b0807-0e13-4b91-b65c-2a5394bd1fbc"
+Template: "748fdfa5-9024-4269-b12c-de23d114e157"
+Path: /sitecore/content/RainflyTraining/Data/GlobalFooter/Nav1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T191219Z
+    - ID: "a1e4e2f7-a935-49b9-9d86-6f1554abe245"
+      Hint: GoToLink
+      Value: |
+        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{55F5F004-FA68-47DC-AB1B-8F344500DDD7}" />
+    - ID: "ac55a0d5-d92c-4c44-b918-2373e243e7d8"
+      Hint: DisplayTitle
+      Value: About Us

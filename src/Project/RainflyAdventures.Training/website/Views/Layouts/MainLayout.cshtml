@@ -1,0 +1,35 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using RainflyAdventures.Training.Foundation.Core.Models
+
+@model BasePageModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    @Html.Sitecore().Placeholder("headplaceholder")
+    <!-- Page Metadata Rendering -->
+    @Html.Sitecore().Rendering("{84D7B3E3-6758-4FD2-B53F-B45874878C91}")
+
+    <link rel="stylesheet" href="~/themes/training/globals.css" />
+    <link rel="stylesheet" href="~/themes/training/adventure-planning.module.css" />
+    <link rel="stylesheet" href="~/themes/training/FallHike.module.css" />
+    <link rel="stylesheet" href="~/themes/training/header.module.css" />
+    <link rel="stylesheet" href="~/themes/training/Home.module.css" />
+    <link rel="stylesheet" href="~/themes/training/Orienteering.module.css" />
+    <link rel="stylesheet" href="~/themes/training/singletrip.module.scss" />
+    <link rel="stylesheet" href="~/themes/training/trips.module.css" />
+</head>
+<body class="@Model.BodyCssClass">
+    @Html.Sitecore().DynamicPlaceholder("navigation")
+    @Html.Sitecore().DynamicPlaceholder("maincontent")
+    @*Html.Sitecore().DynamicPlaceholder("footer")*@
+    @Html.Sitecore().Controller("Footer", "GetFooter")
+</body>
+</html>

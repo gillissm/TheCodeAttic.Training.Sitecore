@@ -1,0 +1,14 @@
+﻿---
+ID: "2c1fa7b8-b56e-46e7-bbaf-35feb68274a0"
+Parent: "19295a3f-876b-4450-b976-ed8a5faa0d85"
+Template: "44c68cec-fe3d-4f2b-8c20-5fe2d4ad2d4a"
+Path: /sitecore/content/RainflyTraining/Data/Styles/Background Plus Text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T160906Z

@@ -1,0 +1,28 @@
+@using Sitecore.Mvc
+@using RainflyAdventures.Training.Feature.Navigation
+@using RainflyAdventures.Training.Feature.Navigation.Models
+
+@model RainflyAdventures.Training.Feature.Navigation.Models.HeaderViewModel
+
+<!-- Start Header -->
+<div class="header">
+    <div class="logo">
+        <a href='/'>
+            @Html.Sitecore().Field(ModelConstants.HeaderConstants.CompanyLogoFieldIdString, Model.SCItem)
+        </a>
+    </div>
+    <div class="controls">
+        <div class="topRow" ">
+            <label>@Html.Sitecore().Field(ModelConstants.HeaderConstants.WelcomeMessageFieldIdString, Model.SCItem)</label>
+        </div>
+        <div class="bottomRow">
+        @foreach (NavLinkViewModel link in Model.NavLinks)
+        {
+                <label key="@link.DisplayName">
+                @Html.Sitecore().Field(ModelConstants.NavigationLinkConstants.GoToLinkFieldIdString, link.SCItem)
+                </label>
+        }
+        </div>
+    </div>
+</div>
+<!-- End Header -->

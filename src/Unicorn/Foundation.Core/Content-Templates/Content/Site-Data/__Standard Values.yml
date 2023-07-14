@@ -1,0 +1,18 @@
+﻿---
+ID: "c8230f04-d960-4270-967d-10e511b6b96d"
+Parent: "06b6e03f-2c2e-490b-8ba5-6f2ce6ca7f42"
+Template: "06b6e03f-2c2e-490b-8ba5-6f2ce6ca7f42"
+Path: "/sitecore/templates/Foundation/Content/Site-Data/__Standard Values"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T150532Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,27 @@
+﻿---
+ID: "5da28f0f-c500-4685-befd-b2d3b5a160c9"
+Parent: "5a51dda1-e37a-4885-841c-42a7e0997b8a"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Feature/PageContent/Banner
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/PageContent/Promo
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Banner/Banner.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{79884278-A8A9-4F94-A74F-AE2A58C5670C}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./ancestor-or-self::*[@@templatename='Site']/Data/*[@@templateid='{6A6A321D-EC9B-4636-8002-51709BEFBC1F}']|query:./*[@@templateid='{0A428C01-A955-495D-B306-7E0A7ECBF8DA}']"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T145735Z

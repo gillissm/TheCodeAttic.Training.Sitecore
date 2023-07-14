@@ -1,0 +1,18 @@
+﻿---
+ID: "c9bdca67-a61c-4cc5-ac28-7d910fe42659"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "6669dc16-f106-44b5-96be-7a31ae82b5b5"
+Path: /sitecore/content/RainflyTraining
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/cloud_rain.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T131909Z

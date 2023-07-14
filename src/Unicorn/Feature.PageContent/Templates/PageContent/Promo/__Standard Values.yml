@@ -1,0 +1,14 @@
+﻿---
+ID: "591cce5a-bfa1-452a-8d42-c0a2dd8f03d8"
+Parent: "4851db88-673a-4136-97cc-79b88bf51a84"
+Template: "4851db88-673a-4136-97cc-79b88bf51a84"
+Path: /sitecore/templates/Feature/PageContent/Promo/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T111743Z

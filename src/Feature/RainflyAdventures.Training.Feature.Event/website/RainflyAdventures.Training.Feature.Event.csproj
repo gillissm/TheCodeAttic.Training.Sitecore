@@ -5,6 +5,11 @@
         <ApplicationIcon />
         <OutputType>Library</OutputType>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="App_Config\Include\Feature\Feature.Event.RegisterContainer.config" />
+      <None Remove="App_Config\Include\Feature\Feature.Event.ser.config" />
+    </ItemGroup>
     <ItemGroup>
         <ProjectCapability Include="SupportsSystemWeb" />
     </ItemGroup>
@@ -22,6 +27,20 @@
     <ItemGroup>
         <PackageReference Include="Sitecore.Kernel" Version="9.1.1" />
         <PackageReference Include="Sitecore.Mvc" Version="9.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+      <Folder Include="ViewModels\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="App_Config\Include\Feature\Feature.Event.RegisterContainer.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="App_Config\Include\Feature\Feature.Event.ser.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

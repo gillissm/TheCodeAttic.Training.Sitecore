@@ -1,0 +1,38 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using RainflyAdventures.Training.Feature.Product
+@using CoreModels = RainflyAdventures.Training.Foundation.Core.ModelConstants
+
+@model RenderingModel
+@{
+    // Get via Rendering Parameter, always uses field name
+    @* var background =
+        Model.Item.Database.GetItem(RenderingContext.Current.Rendering.Parameters[CoreModels.StyleableConstants.BackgroundPlusTextFieldName]).Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value; *@
+
+
+    // Get via droplink on datasrouce
+    var backgroundClass =
+    ((Sitecore.Data.Fields.ReferenceField)Model.Item.Fields[CoreModels.StyleableConstants.BackgroundPlusTextFieldIdString]).TargetItem?.Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+}
+<div class='productDetail container'>
+    <div class="containerRow">
+        <div class="containerColumn">
+            <div class=floatText>
+                <p class="description ">
+                    @Html.Sitecore().Field(ModelConstants.ProductConstants.TitleFieldIdString)
+                </p>
+                @Html.Sitecore().Field(ModelConstants.ProductConstants.ImageFieldIdString)
+            </div>
+        </div>
+        <div class="containerColumn">
+            <div>
+                <h2>@Html.Sitecore().Field(ModelConstants.ProductConstants.TitleFieldIdString)</h2>
+                <h3>$@Html.Sitecore().Field(ModelConstants.ProductConstants.CostFieldIdString)</h3>
+                @Html.Sitecore().Field(ModelConstants.ProductConstants.ContentFieldIdString, new { @class = "description" })
+                <div class="containerRow">
+                    <a class='buttonFeel @backgroundClass'>Buy Me!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

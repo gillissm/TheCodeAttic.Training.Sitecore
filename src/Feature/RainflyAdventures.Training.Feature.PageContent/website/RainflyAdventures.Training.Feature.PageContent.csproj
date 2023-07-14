@@ -5,6 +5,64 @@
         <ApplicationIcon />
         <OutputType>Library</OutputType>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="App_Config\Include\Feature\Feature.PageContent.RegisterContainer.config" />
+      <None Remove="App_Config\Include\Feature\Feature.PageContent.ser.config" />
+      <None Remove="Views\Banner\Banner.cshtml" />
+      <None Remove="Views\BasicContent\BasicContent.cshtml" />
+      <None Remove="Views\FieldSample\FieldControlSample.cshtml" />
+      <None Remove="Views\FieldSample\FieldSample.cshtml" />
+      <None Remove="Views\Promo\PromoCard.cshtml" />
+      <None Remove="Views\Promo\PromoLinkCard.cshtml" />
+      <None Remove="Views\SeoMetadata\seometadata.cshtml" />
+      <None Remove="Views\Structure\Left-Sidebar.cshtml" />
+      <None Remove="Views\Structure\Right-Sidebar.cshtml" />
+      <None Remove="Views\Structure\Single-Column.cshtml" />
+      <None Remove="Views\Structure\Three-Column.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="App_Config\Include\Feature\Feature.PageContent.ser.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="App_Config\Include\Feature\Feature.PageContent.RegisterContainer.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Banner\Banner.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\FieldSample\FieldControlSample.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\FieldSample\FieldSample.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Promo\PromoCard.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Promo\PromoLinkCard.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\SeoMetadata\seometadata.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Structure\Left-Sidebar.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Structure\Right-Sidebar.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Structure\Single-Column.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Views\Structure\Three-Column.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
     <ItemGroup>
         <ProjectCapability Include="SupportsSystemWeb" />
     </ItemGroup>
@@ -22,6 +80,16 @@
     <ItemGroup>
         <PackageReference Include="Sitecore.Kernel" Version="9.1.1" />
         <PackageReference Include="Sitecore.Mvc" Version="9.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Views\BasicContent\BasicContent.cshtml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Foundation\Core\website\RainflyAdventures.Training.Foundation.Core.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,28 @@
+﻿---
+ID: "4d914ce9-c3d1-435e-8459-bee0fe859a61"
+Parent: "91b4e3b9-6f60-4a4f-8c60-53089067dc4e"
+Template: "748fdfa5-9024-4269-b12c-de23d114e157"
+Path: /sitecore/content/RainflyTraining/Data/GlobalHeader/NavLink1
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F859ECE0-B0BF-46FB-928C-D6A9C9B66130}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T175317Z
+    - ID: "a1e4e2f7-a935-49b9-9d86-6f1554abe245"
+      Hint: GoToLink
+      Value: |
+        <link text="Going External" linktype="external" url="https://www.rei.com" anchor="" target="" />
+    - ID: "ac55a0d5-d92c-4c44-b918-2373e243e7d8"
+      Hint: DisplayTitle
+      Value: NavLink1

@@ -1,0 +1,39 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Helpers
+
+@model RenderingModel
+
+<div style="margin-top:15px;margin-bottom:15px">
+    <div><strong>Single Line Text</strong></div>
+    @Html.Sitecore().Field("Single-Line-Text")
+    <br /><br />
+    @Model.Item.Fields["Single-Line-Text"]
+</div>
+
+<div style="margin-top:15px;margin-bottom:15px">
+    <div><strong>Rich Text</strong></div>
+    @Html.Sitecore().Field("Rich-Text")
+    <br /><br />
+    @Model.Item.Fields["Rich-Text"]
+</div>
+
+<div style="margin-top:15px;margin-bottom:15px">
+    <div><strong>General Link</strong></div>
+    @Html.Sitecore().Field("General-Link")
+    <br /><br />
+    @Model.Item.Fields["General-Link"]
+</div>
+
+<div style="margin-top:15px;margin-bottom:15px">
+    <div><strong>Multi List with Search</strong></div>
+    @Html.Sitecore().Field("Multi-List")
+    <br /><br />
+    @Model.Item.Fields["Multi-List"]
+</div>
+
+<div style="margin-top:15px;margin-bottom:15px">
+    <div><strong>Image</strong></div>
+    @Html.Sitecore().Field("Img")
+    <br /><br />
+    @Model.Item.Fields["Img"]
+</div>

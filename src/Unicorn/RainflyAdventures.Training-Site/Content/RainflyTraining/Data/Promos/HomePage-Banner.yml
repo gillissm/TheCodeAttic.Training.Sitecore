@@ -1,0 +1,30 @@
+﻿---
+ID: "25a64d48-5a5c-46b7-8f0c-2f6df3fd3807"
+Parent: "f6f02df0-ad65-486f-98cc-a4be2dda4236"
+Template: "4851db88-673a-4136-97cc-79b88bf51a84"
+Path: "/sitecore/content/RainflyTraining/Data/Promos/HomePage-Banner"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "167e607c-3080-450e-85e0-cd60958456a5"
+      Hint: Image
+      Value: |
+        <image mediaid="{34757B79-780D-45C9-A91D-824A92D91D53}" />
+    - ID: "1842e2b7-9cc4-4e1e-8987-38c403715fad"
+      Hint: SubTitle
+      Value: "Where will it take you next?"
+    - ID: "1ab993c6-6e09-4367-aaf2-9372b017910b"
+      Hint: Title
+      Value: "Adventure Awaits!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T153135Z
+    - ID: "939239a5-361f-4e10-bb2c-4ab68e3c6800"
+      Hint: TextColors
+      Value: 
+    - ID: "a246b760-9f0f-4cbb-b43b-1d6f976be47b"
+      Hint: BackgroundPlusText
+      Value: 

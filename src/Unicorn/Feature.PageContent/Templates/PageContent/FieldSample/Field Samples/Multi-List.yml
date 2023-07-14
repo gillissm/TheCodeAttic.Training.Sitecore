@@ -1,0 +1,24 @@
+﻿---
+ID: "566d1f96-45b9-4472-adc5-ff6de08458c5"
+Parent: "e127f94e-c51c-4790-bd38-21bb2e7c08c9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: "/sitecore/templates/Feature/PageContent/FieldSample/Field Samples/Multi-List"
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "StartSearchLocation={D8F725F7-B8BF-4FAD-B3E8-3CF6D19421D1}&TemplateFilter={4851DB88-673A-4136-97CC-79B88BF51A84}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Multilist with Search
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T125403Z

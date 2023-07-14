@@ -1,0 +1,17 @@
+﻿---
+ID: "d588d562-ed8d-4d06-9de9-80a3e70dd021"
+Parent: "2afd8005-0355-47ad-be8d-3fccaf903bc6"
+Template: "4851db88-673a-4136-97cc-79b88bf51a84"
+Path: "/sitecore/content/RainflyTraining/Home/UseSampleLayout/Data/PromoCard-banner"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ab993c6-6e09-4367-aaf2-9372b017910b"
+      Hint: Title
+      Value: "PromoCard-banner"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T162841Z

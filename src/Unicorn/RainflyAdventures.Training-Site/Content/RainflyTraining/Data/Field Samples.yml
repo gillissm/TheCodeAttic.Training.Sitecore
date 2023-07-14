@@ -1,0 +1,14 @@
+﻿---
+ID: "d1b635cb-7665-4683-aa1a-c0cf5aea70a4"
+Parent: "9085b335-82c6-4153-8a34-428344c615e9"
+Template: "ea69e0af-f5ea-4a8b-97af-64ef49ff3830"
+Path: /sitecore/content/RainflyTraining/Data/Field Samples
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T133749Z

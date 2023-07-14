@@ -1,0 +1,52 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Helpers
+
+@model RainflyAdventures.Training.Feature.PageContent.Model.FieldSampleViewModel
+
+<div>
+    <div style="margin-top:15px;margin-bottom:15px">
+        <div><strong>Single Line Text</strong></div>
+        <br /><br />
+        @Model.SingleLineText
+    </div>
+
+    <div style="margin-top:15px;margin-bottom:15px">
+        <div><strong>Rich Text</strong></div>
+        @Model.RichText
+        <br /><br />
+        @Model.RichTextFull
+    </div>
+
+    <div style="margin-top:15px;margin-bottom:15px">
+        <div><strong>General Link</strong></div>
+        @Model.GeneralLink
+        <br /><br />
+        @Model.GeneralLinkFull
+        <br /><br />
+        <ul>
+            <li>@Model.GeneralLinkFld.Value</li>
+            <li>@Model.GeneralLinkFld.Url</li>
+            <li>@Model.GeneralLinkFld.Target</li>
+            <li>@Model.GeneralLinkFld.Title</li>
+            <li>@Model.GeneralLinkFld.Text</li>
+            <li>@Model.GeneralLinkFld.Class</li>
+            <li>@Model.GeneralLinkFld.LinkType</li>
+        </ul>
+    </div>
+
+    <div style="margin-top:15px;margin-bottom:15px">
+        <div><strong>Multi List with Search</strong></div>
+        @Model.MultiList
+        <br /><br />
+        @foreach (RainflyAdventures.Training.Feature.PageContent.Model.CardModel item in Model.Picks)
+        {
+            <div>@item.Name found at @item.ItemId</div>
+            <div>@item.Description</div>
+        }
+    </div>
+
+    <div style="margin-top:15px;margin-bottom:15px">
+        <div><strong>Image</strong></div>
+        @Model.ImageUrl
+        <br /><br />
+    </div>

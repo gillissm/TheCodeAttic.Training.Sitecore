@@ -1,0 +1,31 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using RainflyAdventures.Training.Feature.PageContent
+@using CoreModels = RainflyAdventures.Training.Foundation.Core.ModelConstants
+
+@model RenderingModel
+@{
+    // Get via Rendering Parameter, always uses field name
+    // var background = Model.Item.Database.GetItem(RenderingContext.Current.Rendering.Parameters[CoreModels.StyleableConstants.BackgroundPlusTextFieldName]).Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+
+
+    // Get via droplink on datasrouce
+    var backgroundClass = "";// ((Sitecore.Data.Fields.ReferenceField)Model.Item.Fields[CoreModels.StyleableConstants.BackgroundPlusTextFieldIdString]).TargetItem.Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+    var textClass = "";// ((Sitecore.Data.Fields.ReferenceField)Model.Item.Fields[CoreModels.StyleableConstants.TextColorsFieldIdString]).TargetItem.Fields[CoreModels.CSSClassConstants.ClassnameFieldIdString].Value;
+}
+<section class="hero center">
+    <div class="banner @backgroundClass @textClass">
+        <div class="banner-image">@Html.Sitecore().Field(ModelConstants.PromoConstants.ImageFieldIdString, new { mh = "300" })</div>
+        <div class="banner-text"><h1 class="title">@Html.Sitecore().Field(ModelConstants.PromoConstants.TitleFieldIdString)</h1><h2 class="subtitle">@Html.Sitecore().Field(ModelConstants.PromoConstants.SubTitleFieldIdString)</h2></div>
+    </div>
+</section>
+
+@*Path field data for rendering definition item in Sitecore: /Views/Simple Components/banner.cshtml *@
+
+
+@Model.Rendering.Parameters["KeyName"]
+
+
+@RenderingContext.Current.Rendering.Parameters["KeyName"]
+
+

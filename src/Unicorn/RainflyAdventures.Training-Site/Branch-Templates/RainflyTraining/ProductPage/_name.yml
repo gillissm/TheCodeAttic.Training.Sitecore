@@ -1,0 +1,14 @@
+﻿---
+ID: "8419a746-4996-40cd-bffa-1570362b405c"
+Parent: "431a4468-4049-4d7d-89c3-3b1fa98f00db"
+Template: "9ec14a2d-55f8-4540-9137-e66f01b916d1"
+Path: /sitecore/templates/Branches/Project/RainflyTraining/ProductPage/$name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T132527Z
