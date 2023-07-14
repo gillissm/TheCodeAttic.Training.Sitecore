@@ -1,0 +1,30 @@
+{
+  "namespace": "Feature.PageContent",
+  "references": [
+    "Foundation.*"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/PageContent",
+        "database": "master"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/renderings/Feature/PageContent",
+        "database": "master"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/PageContent",
+        "database": "master"
+      },
+      {
+        "name": "CustomExperienceButtons",
+        "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/PageContent",
+        "database": "core"
+      }
+    ]
+  }
+}

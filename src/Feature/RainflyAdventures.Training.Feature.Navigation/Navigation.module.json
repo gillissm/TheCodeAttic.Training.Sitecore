@@ -1,0 +1,30 @@
+{
+  "namespace": "Feature.Navigation",
+  "references": [
+    "Foundation.*"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Navigation",
+        "database": "master"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/renderings/Feature/Navigation",
+        "database": "master"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Navigation",
+        "database": "master"
+      },
+      {
+        "name": "CustomExperienceButtons",
+        "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Navigation",
+        "database": "core"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "namespace": "Feature.Product",
+  "references": [
+    "Foundation.*"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Product",
+        "database": "master"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/renderings/Feature/Product",
+        "database": "master"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Feature/Product",
+        "database": "master"
+      },
+      {
+        "name": "CustomExperienceButtons",
+        "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Product",
+        "database": "core"
+      }
+    ]
+  }
+}

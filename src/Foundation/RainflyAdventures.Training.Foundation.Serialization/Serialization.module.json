@@ -1,0 +1,30 @@
+{
+  "namespace": "Foundation.Serialization",
+  "references": [
+    "Foundation.*"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Foundation/Serialization",
+        "database": "master"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/renderings/Foundation/Serialization",
+        "database": "master"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Foundation/Serialization",
+        "database": "master"
+      },
+      {
+        "name": "CustomExperienceButtons",
+        "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Foundation/Serialization",
+        "database": "core"
+      }
+    ]
+  }
+}
