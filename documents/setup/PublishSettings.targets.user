@@ -1,0 +1,25 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">    
+ <PropertyGroup>
+    <!-- 
+        Use file path instead of host, so Helix Publishing Pipeline can 
+        detect unchanged Web.config transformation outputs and skips them 
+        to prevent an unnecessarily app pool recycle.
+
+        If your environment is different, copy and rename PublishSettings.targets.user.example file, 
+        to PublishSettings.targets.user and set the publishUrl there. The PublishSettings.targets.user is ignored by git.
+
+        STEPS:
+
+        1. Duplicate this file renaming it to "PublishingSettings.targets.user"
+        2. Uncomment the below publish URL and assign it to the full path to the docker\deploy
+        3. Comment out the Import line
+        
+      -->
+
+    <!-- UNCOMMENT THIS IN YOUR USER FILE-->
+    <!-- This needs to be updated to the fully qualifed path for docker\deploy-->
+    <publishUrl>C:\Code\Franciscan Health\docker\deploy</publishUrl>
+  </PropertyGroup>
+ 
+  
+</Project>
