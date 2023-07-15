@@ -5,6 +5,8 @@
 1. Copy **PublishingSettings.targets.user** to the root of source code...this would be a sibling to *RainflyAdventures.Training.sln*
 2. Open **PublishingSettings.targets.user** and set the *publishUrl* to the full path of your Sitecore site.
 3. Open the solution in Visual Studio (running as Admin)
+4. From solution explorere right click on *RainflyAdventures.Training.Sitebuild* and select **Publish**
+5. From the publish menu ensure that the 'Local.pubxml' profile is selected and click **Publish**
 
 ## TDS Confiugration
 
