@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {54C01C34-DC75-406C-932F-D665F63072D6}
+database: master
+path: /sitecore/content/RainflyTraining/Home/RenderingParams-Sample/Data/PromoCard
+parent: {80ECE568-25C0-4B1D-B438-6A4160351DA7}
+name: PromoCard
+master: {00000000-0000-0000-0000-000000000000}
+template: {4851DB88-673A-4136-97CC-79B88BF51A84}
+templatekey: Promo
+created: 20230616T151053Z
+
+----version----
+language: en
+version: 1
+revision: 1d4c81e3-eb85-4938-99a9-50677e565129
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 17
+
+overlook the lake
+----field----
+field: {167E607C-3080-450E-85E0-CD60958456A5}
+name: Image
+key: image
+content-length: 110
+
+<image mediaid="{9B3B1D37-43E9-4E3D-A21B-B63DBA2800A7}" alt="" height="200" width="300" hspace="" vspace="" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220930T150153Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1d4c81e3-eb85-4938-99a9-50677e565129
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230710T201759Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

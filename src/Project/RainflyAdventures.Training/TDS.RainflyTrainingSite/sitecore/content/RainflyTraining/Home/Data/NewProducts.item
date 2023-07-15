@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {B7A9177E-7D8B-43BB-A8ED-DE5E29650CD9}
+database: master
+path: /sitecore/content/RainflyTraining/Home/Data/NewProducts
+parent: {EF3D31A2-24A9-46AB-BF9A-87B360A4FB6D}
+name: NewProducts
+master: {00000000-0000-0000-0000-000000000000}
+template: {4851DB88-673A-4136-97CC-79B88BF51A84}
+templatekey: Promo
+created: 20230616T151052Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 976f3598-b65d-4c6f-b878-55ea003638a9
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 22
+
+See the latest in gear
+----field----
+field: {7EB0590F-58CD-4B32-AD6D-13D28C2573F7}
+name: PrimaryActionLink
+key: primaryactionlink
+content-length: 133
+
+<link id="{903A9EEF-C054-43BF-B67A-175D88477455}" querystring="" target="" url="/RainflyTraining/Home/TheShop" linktype="internal" />
+----field----
+field: {167E607C-3080-450E-85E0-CD60958456A5}
+name: Image
+key: image
+content-length: 110
+
+<image mediaid="{37E66EA6-45FB-4B13-BC5A-4E7A76DA9BBC}" alt="" height="374" width="250" hspace="" vspace="" />
+----field----
+field: {A246B760-9F0F-4CBB-B43B-1D6F976BE47B}
+name: BackgroundPlusText
+key: backgroundplustext
+content-length: 38
+
+{AC70843A-8591-4236-B27B-EE81AFFAD828}
+----field----
+field: {7152697D-E946-4EC4-AAD5-223FCC204CE7}
+name: Copy
+key: copy
+content-length: 60
+
+<p>We have all the gear you need for you next adventure.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220819T124758Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+976f3598-b65d-4c6f-b878-55ea003638a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230710T194130Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

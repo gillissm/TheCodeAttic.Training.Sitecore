@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {B8C803E6-F517-4875-8B9D-88095F9115A5}
+database: master
+path: /sitecore/content/RainflyTraining/Home/Field-Render-Two
+parent: {D8F725F7-B8BF-4FAD-B3E8-3CF6D19421D1}
+name: Field-Render-Two
+master: {00000000-0000-0000-0000-000000000000}
+template: {6CBE2A18-270A-49F8-BC35-4D534FC6C424}
+templatekey: Page
+created: 20220928T180104Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5CD2F6D9-0255-4603-9247-2682A93C26B8}
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+----version----
+language: en
+version: 1
+revision: 57b1393e-0f50-467c-b591-9f2e0dcbffa7
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 16
+
+Field-Render-Two
+----field----
+field: {0A209E70-FBB1-4A7A-B468-56F47E2176DC}
+name: BrowserTitle
+key: browsertitle
+content-length: 16
+
+Field-Render-Two
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 519
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1469283D-34B4-4DBC-99DD-F409DBEAD08C}" p:before="*" s:ds="{D2267289-3159-4D4F-9DF3-91D15E865CA7}" s:id="{A02CAD3C-523F-49B4-A24F-52B936A6D336}" s:ph="maincontent_{00000000-0000-0000-0000-000000000000}_0" /><r uid="{F0657E53-E5B5-4FDD-B167-271EAB201606}" p:after="*[1=2]" s:ds="{91B4E3B9-6F60-4A4F-8C60-53089067DC4E}" s:id="{8A9CBB30-2A51-4E75-8B20-2F3BCBF8A519}" s:ph="navigation_00000000-0000-0000-0000-000000000000" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220928T140104Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57b1393e-0f50-467c-b591-9f2e0dcbffa7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T153407Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

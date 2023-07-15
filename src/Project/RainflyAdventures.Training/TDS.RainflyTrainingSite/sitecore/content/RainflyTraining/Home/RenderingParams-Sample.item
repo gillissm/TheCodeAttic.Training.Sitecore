@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {78566643-1E0F-44E1-BA0C-FA329101B49D}
+database: master
+path: /sitecore/content/RainflyTraining/Home/RenderingParams-Sample
+parent: {D8F725F7-B8BF-4FAD-B3E8-3CF6D19421D1}
+name: RenderingParams-Sample
+master: {00000000-0000-0000-0000-000000000000}
+template: {6CBE2A18-270A-49F8-BC35-4D534FC6C424}
+templatekey: Page
+created: 20220930T190105Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5CD2F6D9-0255-4603-9247-2682A93C26B8}
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+----version----
+language: en
+version: 1
+revision: 9720b28e-0bea-4e1c-b747-aa6e433ee6f7
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 22
+
+RenderingParams-Sample
+----field----
+field: {0A209E70-FBB1-4A7A-B468-56F47E2176DC}
+name: BrowserTitle
+key: browsertitle
+content-length: 22
+
+RenderingParams-Sample
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1607
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{E7137BCC-C1C0-404B-88D8-0BBBF80218F2}" p:before="*" s:ds="{54C01C34-DC75-406C-932F-D665F63072D6}" s:id="{DD95A2D5-4ABD-453D-BC81-5FF4D76A05F0}" s:par="Body Css Class&amp;Body Id&amp;TextColors=%7B5FB2030F-50F1-4F10-9127-283ECFFCA79B%7D&amp;BackgroundPlusText" s:ph="/maincontent-{00000000-0000-0000-0000-000000000000}-0/primarycontent-{29EB6B25-34F1-42EF-87DA-6D3147EEA261}-0" /><r uid="{29EB6B25-34F1-42EF-87DA-6D3147EEA261}" p:after="r[@uid='{E7137BCC-C1C0-404B-88D8-0BBBF80218F2}']" s:id="{1363C922-F7E4-48D4-9973-A0AEA2A72BB7}" s:ph="maincontent-{00000000-0000-0000-0000-000000000000}-0" /><r uid="{F7CB4A39-C2D5-4338-9217-BDC3544DA513}" p:after="r[@uid='{29EB6B25-34F1-42EF-87DA-6D3147EEA261}']" s:ds="{91B4E3B9-6F60-4A4F-8C60-53089067DC4E}" s:id="{8A9CBB30-2A51-4E75-8B20-2F3BCBF8A519}" s:ph="navigation-{00000000-0000-0000-0000-000000000000}-0" /><r uid="{24DB2ADE-27F3-4A6C-9DE5-BF0A84227F0B}" p:after="r[@uid='{F7CB4A39-C2D5-4338-9217-BDC3544DA513}']" s:ds="{54C01C34-DC75-406C-932F-D665F63072D6}" s:id="{DD95A2D5-4ABD-453D-BC81-5FF4D76A05F0}" s:par="Body Css Class=mybodyclass&amp;Body Id&amp;TextColors=%7B302C4904-A433-4A73-BFB1-5CFE336043A5%7D&amp;BackgroundPlusText=%7B87F4C33D-21C6-46C4-A3AB-C967379F1F4A%7D" s:ph="/maincontent_00000000-0000-0000-0000-000000000000/primarycontent_751ab06d-d07f-4ad4-9ebe-215cc7497724" /><r uid="{751AB06D-D07F-4AD4-9EBE-215CC7497724}" p:after="*[1=2]" s:id="{1363C922-F7E4-48D4-9973-A0AEA2A72BB7}" s:ph="maincontent_{00000000-0000-0000-0000-000000000000}_0" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220930T150105Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9720b28e-0bea-4e1c-b747-aa6e433ee6f7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230710T201759Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

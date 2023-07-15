@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {D2267289-3159-4D4F-9DF3-91D15E865CA7}
+database: master
+path: /sitecore/content/RainflyTraining/Data/Field Samples/Field-Sample
+parent: {D1B635CB-7665-4683-AA1A-C0CF5AEA70A4}
+name: Field-Sample
+master: {00000000-0000-0000-0000-000000000000}
+template: {386AF4AE-8558-4185-AC37-F57E776915A9}
+templatekey: FieldSample
+created: 20230616T151052Z
+
+----version----
+language: en
+version: 1
+revision: ed63da8f-41e3-48a9-9898-c2ea166a7a38
+
+----field----
+field: {4F1C959B-41EF-4EBF-B992-EB6C356206FD}
+name: Single-Line-Text
+key: single-line-text
+content-length: 41
+
+This is a single line of text for display
+----field----
+field: {A19A27CB-D407-4CDD-B452-905F1D837505}
+name: Rich-Text
+key: rich-text
+content-length: 257
+
+<p>Rich Text</p>
+<p>Can provide a lot of opportunity for <strong>editors to make</strong> their content come <em>alive.</em></p>
+<ul>
+    <li><em>one option is</em></li>
+    <li>bullet list</li>
+    <li>which makes it nice to show new ideas</li>
+</ul>
+----field----
+field: {25DC8465-7DA4-4ECE-8EAA-7756E1950288}
+name: General-Link
+key: general-link
+content-length: 125
+
+<link linktype="internal" text="Go to Things to Read" querystring="" target="" id="{78BF18AF-FF1B-41E7-A22F-BB6BAB39DB26}" />
+----field----
+field: {566D1F96-45B9-4472-ADC5-FF6DE08458C5}
+name: Multi-List
+key: multi-list
+content-length: 77
+
+{C54E61AC-F65F-4AB5-82EA-512339F4C3C6}|{F99F1D2E-B2C8-4646-9FF3-F62156CD130D}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220928T134735Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ed63da8f-41e3-48a9-9898-c2ea166a7a38
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T151052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

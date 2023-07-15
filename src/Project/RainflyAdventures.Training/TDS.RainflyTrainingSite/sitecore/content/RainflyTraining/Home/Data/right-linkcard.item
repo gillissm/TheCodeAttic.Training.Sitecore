@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {F99F1D2E-B2C8-4646-9FF3-F62156CD130D}
+database: master
+path: /sitecore/content/RainflyTraining/Home/Data/right-linkcard
+parent: {EF3D31A2-24A9-46AB-BF9A-87B360A4FB6D}
+name: right-linkcard
+master: {00000000-0000-0000-0000-000000000000}
+template: {4851DB88-673A-4136-97CC-79B88BF51A84}
+templatekey: Promo
+created: 20230616T151052Z
+
+----version----
+language: en
+version: 1
+revision: 7be29fcd-fbe1-40cf-94ce-6b4e8e21ef1e
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 10
+
+Learn More
+----field----
+field: {7EB0590F-58CD-4B32-AD6D-13D28C2573F7}
+name: PrimaryActionLink
+key: primaryactionlink
+content-length: 97
+
+<link linktype="internal" querystring="" target="" id="{76CC0D0D-8DA6-4058-9891-290E5EDB8A6E}" />
+----field----
+field: {7152697D-E946-4EC4-AAD5-223FCC204CE7}
+name: Copy
+key: copy
+content-length: 48
+
+<p>Come learn a little more about our trips!</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220818T205138Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7be29fcd-fbe1-40cf-94ce-6b4e8e21ef1e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T151052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

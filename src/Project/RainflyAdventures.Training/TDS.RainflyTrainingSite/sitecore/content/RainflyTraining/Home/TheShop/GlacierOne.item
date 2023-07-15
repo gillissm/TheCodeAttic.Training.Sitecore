@@ -1,0 +1,131 @@
+----item----
+version: 1
+id: {1FA964EE-D7E4-44C0-B8EB-B6ED36C393DB}
+database: master
+path: /sitecore/content/RainflyTraining/Home/TheShop/GlacierOne
+parent: {903A9EEF-C054-43BF-B67A-175D88477455}
+name: GlacierOne
+master: {00000000-0000-0000-0000-000000000000}
+template: {9EC14A2D-55F8-4540-9137-E66F01B916D1}
+templatekey: ProductPage
+created: 20230616T151053Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{8419A746-4996-40CD-BFFA-1570362B405C}
+----version----
+language: en
+version: 1
+revision: e7f6a3f0-4229-4428-86e6-fd450593b578
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 17
+
+Glacier in Valley
+----field----
+field: {167E607C-3080-450E-85E0-CD60958456A5}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{A7C07C21-8BC8-4DEA-AB39-233F40C6D357}" ></image>
+----field----
+field: {2B54E5F2-2A94-4E65-AD69-744873B7DA1B}
+name: MetaDesc
+key: metadesc
+content-length: 21
+
+large glacier picture
+----field----
+field: {9A18B77D-76C9-4BB0-9E21-9E1593F5344E}
+name: MetaKeywords
+key: metakeywords
+content-length: 15
+
+glacier product
+----field----
+field: {0A209E70-FBB1-4A7A-B468-56F47E2176DC}
+name: BrowserTitle
+key: browsertitle
+content-length: 24
+
+Glacier in Gorge Picture
+----field----
+field: {91290ABA-E8DD-4020-9A00-E58326408D42}
+name: Cost
+key: cost
+content-length: 5
+
+23.53
+----field----
+field: {8260155A-CE0A-450B-BF48-74A5897BE58E}
+name: Rating
+key: rating
+content-length: 1
+
+5
+----field----
+field: {A246B760-9F0F-4CBB-B43B-1D6F976BE47B}
+name: BackgroundPlusText
+key: backgroundplustext
+content-length: 38
+
+{AC70843A-8591-4236-B27B-EE81AFFAD828}
+----field----
+field: {7152697D-E946-4EC4-AAD5-223FCC204CE7}
+name: Copy
+key: copy
+content-length: 144
+
+<p>One of the most stunning glacier views you'll ever see.</p>
+<p>Can be shipped for full wall display</p>
+<p>Looks great on an office wall.</p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 749
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{6390FA9E-220E-46FB-959B-67474C2DEB91}" p:before="*" s:id="{81C2D465-66D5-48E5-BBE7-118699952040}" s:ph="/maincontent-{00000000-0000-0000-0000-000000000000}-0/primarycontent-{6BFCBD61-D3AF-4031-B473-3172DAFCE164}-0" /><r uid="{6BFCBD61-D3AF-4031-B473-3172DAFCE164}" p:after="r[@uid='{6390FA9E-220E-46FB-959B-67474C2DEB91}']" s:id="{C4F1BCFA-ED9F-4D4B-B90D-B1890FA23218}" s:ph="maincontent-{00000000-0000-0000-0000-000000000000}-0" /><r uid="{8CC27E65-4880-4975-AA1F-DCA8D42EB5F6}" p:after="*[1=2]" s:ds="{91B4E3B9-6F60-4A4F-8C60-53089067DC4E}" s:id="{8A9CBB30-2A51-4E75-8B20-2F3BCBF8A519}" s:ph="navigation-{00000000-0000-0000-0000-000000000000}-0" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220829T143150Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e7f6a3f0-4229-4428-86e6-fd450593b578
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230710T201253Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

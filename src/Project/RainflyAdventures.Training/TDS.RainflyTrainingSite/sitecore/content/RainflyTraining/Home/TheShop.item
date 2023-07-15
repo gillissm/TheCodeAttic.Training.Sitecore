@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {903A9EEF-C054-43BF-B67A-175D88477455}
+database: master
+path: /sitecore/content/RainflyTraining/Home/TheShop
+parent: {D8F725F7-B8BF-4FAD-B3E8-3CF6D19421D1}
+name: TheShop
+master: {00000000-0000-0000-0000-000000000000}
+template: {B7A95646-7F7A-46F0-B29A-1A685F248D04}
+templatekey: TheShopPage
+created: 20220819T165644Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+Office/32x32/bank_building.png
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{CC883C53-26E5-4031-AAD5-EE331975A438}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{431A4468-4049-4D7D-89C3-3B1FA98F00DB}
+----version----
+language: en
+version: 1
+revision: c689d875-4968-47ba-bec5-9be212127138
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 8
+
+The Shop
+----field----
+field: {0A209E70-FBB1-4A7A-B468-56F47E2176DC}
+name: BrowserTitle
+key: browsertitle
+content-length: 8
+
+The Shop
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1484
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{DA2E97DC-0C05-4082-A756-BF44C912B3FC}" p:before="*" s:id="{D33C8502-6902-445C-BF9B-6F3E1B3771FD}" s:ph="/maincontent-{00000000-0000-0000-0000-000000000000}-0/primarycontent-{799C22D3-A704-4BD1-9BEE-23AFE1F184DA}-0" /><r uid="{799C22D3-A704-4BD1-9BEE-23AFE1F184DA}" p:after="r[@uid='{DA2E97DC-0C05-4082-A756-BF44C912B3FC}']" s:id="{C4F1BCFA-ED9F-4D4B-B90D-B1890FA23218}" s:ph="maincontent-{00000000-0000-0000-0000-000000000000}-0" /><r uid="{F7915004-E3FE-4F0C-AC3C-B53667D9C54C}" p:after="r[@uid='{799C22D3-A704-4BD1-9BEE-23AFE1F184DA}']" s:ds="{91B4E3B9-6F60-4A4F-8C60-53089067DC4E}" s:id="{8A9CBB30-2A51-4E75-8B20-2F3BCBF8A519}" s:ph="navigation-{00000000-0000-0000-0000-000000000000}-0" /><r uid="{33FC0B48-2955-41E4-82EB-091BA84362AF}" p:after="r[@uid='{F7915004-E3FE-4F0C-AC3C-B53667D9C54C}']" s:id="{D33C8502-6902-445C-BF9B-6F3E1B3771FD}" s:ph="/maincontent_00000000-0000-0000-0000-000000000000/primarycontent_958282c3-d7a5-4c47-8a3e-c1306a6590e3" /><r uid="{958282C3-D7A5-4C47-8A3E-C1306A6590E3}" p:after="r[@uid='{33FC0B48-2955-41E4-82EB-091BA84362AF}']" s:id="{1363C922-F7E4-48D4-9973-A0AEA2A72BB7}" s:ph="maincontent_{00000000-0000-0000-0000-000000000000}_0" /><r uid="{6CA8B0B0-5BD2-41FB-BED9-5FC532E216EB}" p:after="*[1=2]" s:ds="{91B4E3B9-6F60-4A4F-8C60-53089067DC4E}" s:id="{8A9CBB30-2A51-4E75-8B20-2F3BCBF8A519}" s:ph="navigation_00000000-0000-0000-0000-000000000000" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220819T125644Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c689d875-4968-47ba-bec5-9be212127138
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230710T225341Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

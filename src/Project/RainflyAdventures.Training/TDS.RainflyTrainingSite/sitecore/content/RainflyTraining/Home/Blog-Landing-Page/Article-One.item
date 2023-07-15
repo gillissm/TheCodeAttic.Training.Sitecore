@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {85D384F9-C63F-4806-9558-A352F0A9428B}
+database: master
+path: /sitecore/content/RainflyTraining/Home/Blog-Landing-Page/Article-One
+parent: {78BF18AF-FF1B-41E7-A22F-BB6BAB39DB26}
+name: Article-One
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A4580B7-3A98-4057-9AB5-C743393E0CAD}
+templatekey: ArticlePage
+created: 20230616T151052Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{FBFD8450-E9F0-40F5-AD4A-173FCF429D10}
+----version----
+language: en
+version: 1
+revision: 255032cc-f783-49f0-ae51-3b65f81599ec
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 11
+
+Article-One
+----field----
+field: {0A209E70-FBB1-4A7A-B468-56F47E2176DC}
+name: BrowserTitle
+key: browsertitle
+content-length: 11
+
+Article-One
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 145
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{0230D07A-4E4A-4F87-B3EF-568A6FF7FB11}" /></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220926T201036Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+255032cc-f783-49f0-ae51-3b65f81599ec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230710T202125Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

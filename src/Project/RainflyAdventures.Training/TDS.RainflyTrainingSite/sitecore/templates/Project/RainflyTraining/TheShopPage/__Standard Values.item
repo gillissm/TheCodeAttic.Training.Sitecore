@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {C6D8E3E3-5291-4CD6-B646-1FBA19413FBB}
+database: master
+path: /sitecore/templates/Project/RainflyTraining/TheShopPage/__Standard Values
+parent: {B7A95646-7F7A-46F0-B29A-1A685F248D04}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B7A95646-7F7A-46F0-B29A-1A685F248D04}
+templatekey: TheShopPage
+created: 20230616T151054Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{9EC14A2D-55F8-4540-9137-E66F01B916D1}
+----version----
+language: en
+version: 1
+revision: 2c1171e0-61cc-487d-a2bd-c6d242698146
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220819T125413Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c1171e0-61cc-487d-a2bd-c6d242698146
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T151054Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

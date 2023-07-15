@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {2580AA00-AF91-4CF8-83C9-EFD7723AF1ED}
+database: master
+path: /sitecore/templates/Project/RainflyTraining/ArticlePage/__Standard Values
+parent: {3A4580B7-3A98-4057-9AB5-C743393E0CAD}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A4580B7-3A98-4057-9AB5-C743393E0CAD}
+templatekey: ArticlePage
+created: 20230616T151054Z
+
+----version----
+language: en
+version: 1
+revision: d4abaf9e-83eb-40f9-a0af-bed8d45ae283
+
+----field----
+field: {0A209E70-FBB1-4A7A-B468-56F47E2176DC}
+name: BrowserTitle
+key: browsertitle
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220801T124552Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d4abaf9e-83eb-40f9-a0af-bed8d45ae283
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T151054Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

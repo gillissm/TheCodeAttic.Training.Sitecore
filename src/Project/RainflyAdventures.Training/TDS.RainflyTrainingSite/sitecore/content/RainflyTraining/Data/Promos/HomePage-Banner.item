@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {25A64D48-5A5C-46B7-8F0C-2F6DF3FD3807}
+database: master
+path: /sitecore/content/RainflyTraining/Data/Promos/HomePage-Banner
+parent: {F6F02DF0-AD65-486F-98CC-A4BE2DDA4236}
+name: HomePage-Banner
+master: {00000000-0000-0000-0000-000000000000}
+template: {4851DB88-673A-4136-97CC-79B88BF51A84}
+templatekey: Promo
+created: 20230616T151052Z
+
+----version----
+language: en
+version: 1
+revision: 216bcbed-a0c3-4994-bc64-2f151bc1c7f9
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 17
+
+Adventure Awaits!
+----field----
+field: {167E607C-3080-450E-85E0-CD60958456A5}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{34757B79-780D-45C9-A91D-824A92D91D53}" />
+----field----
+field: {939239A5-361F-4E10-BB2C-4AB68E3C6800}
+name: TextColors
+key: textcolors
+content-length: 0
+
+
+----field----
+field: {A246B760-9F0F-4CBB-B43B-1D6F976BE47B}
+name: BackgroundPlusText
+key: backgroundplustext
+content-length: 0
+
+
+----field----
+field: {1842E2B7-9CC4-4E1E-8987-38C403715FAD}
+name: SubTitle
+key: subtitle
+content-length: 28
+
+Where will it take you next?
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220818T153135Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+216bcbed-a0c3-4994-bc64-2f151bc1c7f9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T151052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

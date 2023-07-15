@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {91B4E3B9-6F60-4A4F-8C60-53089067DC4E}
+database: master
+path: /sitecore/content/RainflyTraining/Data/GlobalHeader
+parent: {9085B335-82C6-4153-8A34-428344C615E9}
+name: GlobalHeader
+master: {00000000-0000-0000-0000-000000000000}
+template: {A5CE7EEF-0E8F-41FB-AB97-F4B4B0A8DD1C}
+templatekey: Header
+created: 20230616T151051Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{54DF24F6-B1BB-46C7-B94B-CEA6A315F046}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{748FDFA5-9024-4269-B12C-DE23D114E157}
+----version----
+language: en
+version: 1
+revision: afef4382-cbe2-427d-b646-dd8031075e86
+
+----field----
+field: {72A2F77F-6FE5-4D55-811B-E89ED73E049C}
+name: CompanyLogo
+key: companylogo
+content-length: 115
+
+<image mediaid="{4BD2B7F5-2CAC-4F70-BDC6-392CC1E34E04}" alt="" height="75" width="350" hspace="" vspace=""></image>
+----field----
+field: {BC176B2F-FA17-42D2-8DA2-490940073EA0}
+name: WelcomeMessage
+key: welcomemessage
+content-length: 21
+
+learning the Fun Way!
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220802T175317Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+afef4382-cbe2-427d-b646-dd8031075e86
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T151051Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

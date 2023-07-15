@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {73782D3A-D398-4B1B-9406-6FAB1D4A6BFA}
+database: master
+path: /sitecore/content/RainflyTraining/Home/Blog-Landing-Page/Data/To Article
+parent: {5F41E632-C64F-41FD-B957-5C17C0E53DC9}
+name: To Article
+master: {00000000-0000-0000-0000-000000000000}
+template: {4851DB88-673A-4136-97CC-79B88BF51A84}
+templatekey: Promo
+created: 20230711T114325Z
+
+----version----
+language: en
+version: 1
+revision: 3524058f-eadb-4c0a-842d-5ea2d5ba0191
+
+----field----
+field: {1AB993C6-6E09-4367-AAF2-9372B017910B}
+name: Title
+key: title
+content-length: 10
+
+To Article
+----field----
+field: {7EB0590F-58CD-4B32-AD6D-13D28C2573F7}
+name: PrimaryActionLink
+key: primaryactionlink
+content-length: 97
+
+<link linktype="internal" querystring="" target="" id="{85D384F9-C63F-4806-9558-A352F0A9428B}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230711T114326Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3524058f-eadb-4c0a-842d-5ea2d5ba0191
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230711T114355Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

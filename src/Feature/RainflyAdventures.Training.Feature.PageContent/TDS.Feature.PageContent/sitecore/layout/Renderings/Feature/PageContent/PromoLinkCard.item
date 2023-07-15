@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {9C47C13A-2EF7-4212-8873-2D31B0377693}
+database: master
+path: /sitecore/layout/Renderings/Feature/PageContent/PromoLinkCard
+parent: {5A51DDA1-E37A-4885-841C-42A7E0997B8A}
+name: PromoLinkCard
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20220819T003705Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 33
+
+/Views/Promo/PromoLinkCard.cshtml
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 0
+
+
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 177
+
+query:./ancestor-or-self::*[@@templatename='Site']/Data/*[@@templateid='{6A6A321D-EC9B-4636-8002-51709BEFBC1F}']|query:./*[@@templateid='{0A428C01-A955-495D-B306-7E0A7ECBF8DA}']
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 45
+
+/sitecore/templates/Feature/PageContent/Promo
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 77
+
+{5DA28F0F-C500-4685-BEFD-B2D3B5A160C9}|{DD95A2D5-4ABD-453D-BC81-5FF4D76A05F0}
+----version----
+language: en
+version: 1
+revision: 3fb05cfc-a816-445f-a8dd-6ac473013d94
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220818T145735Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3fb05cfc-a816-445f-a8dd-6ac473013d94
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220818T205212Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
