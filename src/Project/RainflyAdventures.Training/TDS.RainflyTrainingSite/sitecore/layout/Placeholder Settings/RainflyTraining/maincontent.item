@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {73716732-1695-4AAB-A879-4058722BF29E}
+database: master
+path: /sitecore/layout/Placeholder Settings/RainflyTraining/maincontent
+parent: {CB87FF2F-5003-499C-B236-F1318976B874}
+name: maincontent
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20220801T204131Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 11
+
+maincontent
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 389
+
+{1363C922-F7E4-48D4-9973-A0AEA2A72BB7}|{CA608BCF-2D12-43E0-A59C-55A42AB25AA5}|{C4F1BCFA-ED9F-4D4B-B90D-B1890FA23218}|{3BCB8E5B-4BC8-4715-82E0-0C231BABFF2B}|{5DA28F0F-C500-4685-BEFD-B2D3B5A160C9}|{5FBA6681-30FF-472E-973B-A471B59DB790}|{DD95A2D5-4ABD-453D-BC81-5FF4D76A05F0}|{9C47C13A-2EF7-4212-8873-2D31B0377693}|{A02CAD3C-523F-49B4-A24F-52B936A6D336}|{4AD11283-D156-4E01-9042-6FCDFEBECCBB}
+----field----
+field: {14D0728A-82F9-4B01-AB16-1FE1577CEDE2}
+name: Editable
+key: editable
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 3937296c-b16f-408c-8226-dd2748110be1
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220801T164131Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3937296c-b16f-408c-8226-dd2748110be1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230715T042255Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

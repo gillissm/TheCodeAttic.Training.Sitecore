@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D1DBCC6E-B0E2-46E2-A110-6F1B91F98E22}
+database: master
+path: /sitecore/layout/Placeholder Settings/RainflyTraining/middlecolumncontent
+parent: {CB87FF2F-5003-499C-B236-F1318976B874}
+name: middlecolumncontent
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20230616T143610Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 19
+
+middlecolumncontent
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 155
+
+{5FBA6681-30FF-472E-973B-A471B59DB790}|{5DA28F0F-C500-4685-BEFD-B2D3B5A160C9}|{DD95A2D5-4ABD-453D-BC81-5FF4D76A05F0}|{9C47C13A-2EF7-4212-8873-2D31B0377693}
+----field----
+field: {14D0728A-82F9-4B01-AB16-1FE1577CEDE2}
+name: Editable
+key: editable
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 7aba7e59-5538-445c-bc03-99cc6f012c21
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220801T194646Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7aba7e59-5538-445c-bc03-99cc6f012c21
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230715T042238Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "b5d80d18-6775-4531-adba-52e6a62267d3"
+Parent: "cb87ff2f-5003-499c-b236-f1318976b874"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/RainflyTraining/footer
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: footer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T164139Z

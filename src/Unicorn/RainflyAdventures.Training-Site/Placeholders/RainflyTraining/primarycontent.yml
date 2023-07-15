@@ -1,0 +1,32 @@
+﻿---
+ID: "fdfcf678-cc75-4177-aeff-625db354aa76"
+Parent: "cb87ff2f-5003-499c-b236-f1318976b874"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/RainflyTraining/primarycontent
+DB: master
+SharedFields:
+- ID: "14d0728a-82f9-4b01-ab16-1fe1577cede2"
+  Hint: Editable
+  Type: Checkbox
+  Value: 1
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: primarycontent
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {5FBA6681-30FF-472E-973B-A471B59DB790}
+    {5DA28F0F-C500-4685-BEFD-B2D3B5A160C9}
+    {DD95A2D5-4ABD-453D-BC81-5FF4D76A05F0}
+    {9C47C13A-2EF7-4212-8873-2D31B0377693}
+    {81C2D465-66D5-48E5-BBE7-118699952040}
+    {D33C8502-6902-445C-BF9B-6F3E1B3771FD}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T193031Z
