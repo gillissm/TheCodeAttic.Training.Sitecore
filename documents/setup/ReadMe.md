@@ -8,7 +8,7 @@
 4. From solution explorere right click on *RainflyAdventures.Training.Sitebuild* and select **Publish**
 5. From the publish menu ensure that the 'Local.pubxml' profile is selected and click **Publish**
 
-## TDS Confiugration
+## TDS Configuration
 
 If you are using TDS for serialization perform the following:
 
